@@ -88,6 +88,7 @@ npm install recharts notistack react-modal react-icons
 
 ### File Structure
 
+```
 expense-tracker/
 ├── public/
 ├── src/
@@ -107,4 +108,4 @@ expense-tracker/
 │   └── App.js
 ├── package.json
 └── README.md
-
+```
