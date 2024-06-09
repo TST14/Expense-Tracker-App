@@ -1,0 +1,65 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-card-bg);
+  min-height: 25%;
+  margin-bottom: 1rem;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cat-logo-container {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-icon-bg);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.cat-logo {
+  width: 1.2em;
+  height: 1.2em;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-container .title {
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+  font-weight: 400;
+}
+.text-container .date {
+  color: var(--color-card-bg);
+  font-weight: 400;
+  font-family: var(--font-open-sans);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.amount {
+  color: var(--color-button-bg);
+  margin-right: 1rem;
+  font-weight: 700;
+  font-family: var(--font-open-sans);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}

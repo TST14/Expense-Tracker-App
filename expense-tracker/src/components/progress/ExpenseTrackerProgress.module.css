@@ -1,0 +1,24 @@
+.expense {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2.5%;
+  margin-bottom: 1rem;
+}
+.expense .label {
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  width: 20%;
+}
+.expense .progress-bar {
+  height: 1.2rem;
+  width: 100%;
+}
+.expense .progress-bar .progress {
+  height: 100%;
+  background-color: var(--color-violet-smoke);
+  border-radius: 0 1rem 1rem 0;
+}

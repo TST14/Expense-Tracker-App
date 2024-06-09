@@ -1,0 +1,15 @@
+.form-field {
+  padding: 0.6rem 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-white);
+  color: var(--color-input-text);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-family: var(--font-open-sans);
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 0.9rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

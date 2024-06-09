@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  /* colors */
+  --color-bg: #3b3b3b;
+  --color-bg-secondary: #626262;
+  --color-card-bg: #9b9b9b;
+  --color-violet: #a000ff;
+  --color-violet-smoke: #8784d2;
+  --color-green: #43967b;
+  --color-bright-green: #9dff5b;
+  --color-yellow-green: #b5dc52;
+  --color-white: #ffffff;
+  --color-smoke-grey: #f1f1f1;
+  --color-black: #000000;
+  --color-black-alt: #222222;
+  --color-orange: #ff9304;
+  --color-yellow: #fde006;
+  --color-button-bg: #f4bb4a;
+  --color-red: #ff3838;
+  --color-light-red: #ff9595;
+  --color-bright-red: #ff4747;
+  --color-icon-bg: #d9d9d9;
+  --color-red-icon-bg: #ff3e3e;
+  --color-modal-bg: #efefefd9;
+  --color-modal-overlay-bg: #ffffffc4;
+  --color-input-text: #919191;
+  --color-btn-grey-bg: #e3e3e3;
+
+  /* ---------------------- */
+
+  /* fonts */
+  --font-ubuntu: Ubuntu, sans-serif;
+  --font-open-sans: Open Sans, sans-serif;
+  /* ---------------------- */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  font-family: var(--font-ubuntu);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+button {
+  cursor: pointer;
+}
+.recharts-default-legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.recharts-legend-item-text {
+  color: var(--color-white) !important;
+  font-family: var(--font-open-sans);
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+html {
+  font-size: 1.045vw;
 }

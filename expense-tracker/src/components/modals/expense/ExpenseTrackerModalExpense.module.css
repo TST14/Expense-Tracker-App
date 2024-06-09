@@ -1,0 +1,9 @@
+.main-container {
+  background-color: var(--color-modal-bg);
+  padding: 1.3rem 1.5rem 2rem 1.5rem;
+}
+.form-container {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-column-gap: 4%;
+}
